@@ -1,7 +1,15 @@
 {
   "name": "nextjs_setup",
+  "author": "Ouassim Ghribi AKA strlrd-29",
+  "description": "nextjs setup for production-ready apps",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/strlrd-29/nextjs_starter_template",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

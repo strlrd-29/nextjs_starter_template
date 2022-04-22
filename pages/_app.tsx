@@ -1,8 +1,12 @@
-import '../styles/globals.css'
+import { MantineProvider } from '@mantine/core'
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <MantineProvider withGlobalStyles withNormalizeCSS theme={{}}>
+      <Component {...pageProps} />
+    </MantineProvider>
+  )
 }
 
 export default MyApp
